@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Copy Dataset Failure scenarios Sequential Data Set Should throw an error if a missing data set name is selected 1`] = `
+"================Z/OS FILES RENAME DATA SET===============
+"
+`;
+
+exports[`Copy Dataset Success scenarios Partitioned Data Set Should rename a data set 1`] = `
+"================Z/OS FILES RENAME DATA SET===============
+Data set renamed successfully.
+"
+`;
+
+exports[`Copy Dataset Success scenarios Sequential Data Set Should rename a data set 1`] = `
+"================Z/OS FILES RENAME DATA SET===============
+Data set renamed successfully.
+"
+`;

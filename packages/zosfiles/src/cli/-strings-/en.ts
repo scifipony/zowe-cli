@@ -578,5 +578,20 @@ export default {
             Constants.DISPLAY_NAME + " attempts to upload all members at once" +
             " without a maximum number of concurrent requests. "
         }
-    }
+    },
+    RENAME: {
+        DESCRIPTION: "Rename data sets.",
+        ACTIONS: {
+            DATA_SET: {
+                DESCRIPTION: "Rename a data set.",
+                POSITIONALS: {
+                    BEFOREDATASETNAME: "The name of the data set you want to rename.",
+                    AFTERDATASETNAME: "The name you want to rename the data set to.",
+                },
+                EXAMPLES: {
+                    EX1: `Rename a data set using default options`,
+                },
+            }
+        }
+    },
 };
