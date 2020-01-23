@@ -97,15 +97,15 @@ Using the command structure conventions, you create a directory structure that f
 ```
 cli
 ├── action1
-│   ├── object1 
-│   |   ├──Object1.handler.ts
-|   |   └──Object1.definition.ts
-|   └── Action2.definition.ts
+│   ├── object 
+│   |   ├──Object.handler.ts
+|   |   └──Object.definition.ts
+|   └── Action.definition.ts
 ├── action2
-│   ├── object1 
-│   |   ├──Object1.handler.ts
-|   |   └──Object1.definition.ts
-|   └── Action2.definition.ts
+│   ├── object 
+│   |   ├──Object.handler.ts
+|   |   └──Object.definition.ts
+|   └── Action.definition.ts
 └── Group.definition.ts
 ```
 
